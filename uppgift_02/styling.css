@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 1;
+    background-color: blue;
+    width: 100%;
+}
+
+nav {
+    flex: 1;
+    background-color: red;
+    width: 100%;
+}
+
+main {
+    flex: 1;
+    background-color: yellow;
+    width: 100%;
+}
+
+footer {
+    flex: 1;
+    background-color: green;
+    width: 100%;
+}

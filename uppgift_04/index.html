@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppgift 4</title>
+</head>
+<body>
+
+    <!--
+        TASK 4
+            1. See script below, use array function "filter" to return output
+               all even numbers greater than 4 and less than 14 from the array.
+            2. The result should be displayed in the dive with id "result" below.
+     -->
+    <h1>Resultat:</h1>
+    <div id="resultat"></div>
+    
+    <script>
+        let tal = [ 55, 3, 4, 7, 2, 3, 1, 6, 9, 11, 10, 13, 8, 12, 78];
+        const numbers = tal
+        .filter((n) => n> 4)
+        .filter((n) => n< 14)
+        .filter((n) => n / 2 === Math.floor(n /2));
+        document.querySelector("#resultat").textContent = numbers;
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    height: 100vh; /*För att få den lika stor som skärmen.*/
+    display: flex; /*Med detta så lägger man till flex*/
+    flex-direction: column; /*Gör så att den vrider på ally.*/
+}
+
+#center { /*Detta är för att ha de valda i mitten*/
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    }
+
+#blue {
+    flex: 0.5; /*Storleken, samma som nedan*/
+    background-color: blue; /*Färgen, samma som nedan*/
+
+}
+
+#yellow {
+    flex: 1;
+    background-color: yellow;
+}
+
+#green {
+    flex: 1;
+    background-color: green;
+}
+
+#black {
+    flex: 1;
+    background-color: black;
+}
+
+#gray {
+    flex: 0.5;
+    background-color: gray;
+}
